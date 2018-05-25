@@ -9,7 +9,7 @@ def oxford_comma(array)
     new_string.concat(", and "+new_array)
 
   else
-    array
+    array.join
   end
 
 
